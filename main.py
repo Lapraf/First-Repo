@@ -1,5 +1,6 @@
-print ("Hello world")
+num = int(input("Enter the integer (0 to 100): "))
+sum = 0
 
-print ("Hello Git")
-
-print ("Hello vova")
+while num <= 100: 
+    
+    
