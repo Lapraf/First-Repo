@@ -1,6 +1,5 @@
-num = int(input("Enter the integer (0 to 100): "))
-sum = 0
+def formatted_numbers():
+    header = "|{:^10}|{:^10}|{:^10}|".format("decimal", "hex", "binary")
+    print(header)
 
-while num <= 100: 
-    
-    
+formatted_numbers()
